@@ -20,6 +20,16 @@ environment.
   - Group Policy
   - Windows Event Collection, if applicable
 
+### FS01
+
+- Role: File server
+- Operating system: Windows Server
+- Private address: 10.10.10.20
+- Services:
+  - SMB departmental shares
+  - File share auditing
+- Domain membership: corp.lab
+
 ### CLIENT01
 
 - Role: Domain workstation
